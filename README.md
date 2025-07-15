@@ -1,0 +1,40 @@
+# Qt Calculator
+
+A simple cross-platform calculator built using **C++** and **Qt Widgets** (using Qt Creator).  
+Supports keyboard input, history, basic arithmetic operations, backspace, dark/light mode toggle, and more.
+
+---
+
+## 🚀 Features
+
+- Responsive numpad UI
+- Keyboard support for numbers and operations
+- Operation history display
+- Light/Dark mode toggle
+- Fixed window size
+- Works on Windows and Linux
+
+---
+
+## 🛠️ Technologies
+
+- **C++**
+- **Qt 5 / Qt 6**
+- Qt Creator (Open Source Edition)
+
+---
+
+## 🧑‍💻 Build Instructions (Linux/Windows)
+
+### Requirements
+
+- Qt 5.15+ or Qt 6.x
+- Qt Creator
+- g++ or MSVC compiler
+
+### Steps
+
+```bash
+git clone https://github.com/one-1man/qt-calculator.git
+cd qt-calculator
+qtcreator ./calculator.pro
