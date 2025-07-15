@@ -5,6 +5,13 @@ Supports keyboard input, history, basic arithmetic operations, backspace, dark/l
 
 ---
 
+## &#10070; Installation 
+
+- Downlaod and install on windows
+  [Download Windows Installer](https://github.com/one-1man/qt-calculator/releases/tag/v1.0.0)
+
+---
+
 ## &#10070; Features
 
 - Responsive numpad UI
