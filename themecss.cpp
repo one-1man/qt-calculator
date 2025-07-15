@@ -8,12 +8,7 @@ void darkMode(){
         padding: 0;
     }
     #mainWidget{
-        background: qlineargradient(
-            spread:pad,
-            x1:0, y1:0,
-            x2:1, y2:1,
-            stop:0 #092B3D,
-            stop:1 #182E42);
+        background: background: #252525;;
     }
     #calcHistory,
     #display{
@@ -25,10 +20,10 @@ void darkMode(){
     #padWidget{
         background: qlineargradient(
             spread:pad,
-            x1:0, y1:0,
-            x2:1, y2:1,
-            stop:0 #0C3348,
-            stop:1 #0B2742);
+            x1:1, y1:0,
+            x2:0, y2:1,
+            stop:0 #252525,
+            stop:1 #404040);
     }
 
     #button1,
