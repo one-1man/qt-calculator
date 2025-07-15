@@ -7,7 +7,7 @@ Supports keyboard input, history, basic arithmetic operations, backspace, dark/l
 
 ## &#10070; Installation 
 
-- ![Downlaod](https://github.com/one-1man/qt-calculator/releases/tag/v1.0.0) and install on windows
+- [Downlaod](https://github.com/one-1man/qt-calculator/releases/tag/v1.0.0) and install on windows
   
 ---
 
