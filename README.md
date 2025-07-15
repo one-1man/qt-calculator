@@ -15,6 +15,11 @@ Supports keyboard input, history, basic arithmetic operations, backspace, dark/l
 - Works on Windows and Linux
 
 ---
+## &#10070; Screenshot
+
+![Calculator Screenshot](screenshot.png)
+
+---
 
 ## &#10070; Technologies
 
