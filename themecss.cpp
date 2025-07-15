@@ -231,6 +231,7 @@ void lightMode(){
         padding: 0;
         color: black;
         background: #FfFfFf;
+        border-radius: 5px;
     }
     #toggleThemeBtn::hover{
         background: rgba(0,0,0,0.1);
