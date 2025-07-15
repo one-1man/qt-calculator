@@ -5,7 +5,7 @@ Supports keyboard input, history, basic arithmetic operations, backspace, dark/l
 
 ---
 
-## 🚀 Features
+## &#10686 Features
 
 - Responsive numpad UI
 - Keyboard support for numbers and operations
@@ -16,7 +16,7 @@ Supports keyboard input, history, basic arithmetic operations, backspace, dark/l
 
 ---
 
-## 🛠️ Technologies
+## &#10686; Technologies
 
 - **C++**
 - **Qt 5 / Qt 6**
