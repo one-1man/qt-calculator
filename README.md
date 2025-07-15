@@ -38,3 +38,9 @@ Supports keyboard input, history, basic arithmetic operations, backspace, dark/l
 git clone https://github.com/one-1man/qt-calculator.git
 cd qt-calculator
 qtcreator ./calculator.pro
+```
+
+## &#10192; License Notice
+
+This app is built using the Qt framework under the LGPLv3 license.
+You can learn more about Qt licensing at: https://www.qt.io/licensing
