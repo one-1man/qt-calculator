@@ -123,19 +123,7 @@ void MainWindow::onClearClicked() {
 
 void MainWindow::onEqualClicked(){
     displayText = ui->display->text();
-    // if (displayText.isEmpty() ||
-    //     displayText.right(1) == " " ||
-    //     displayText.startsWith("/") ||
-    //     displayText.startsWith("*") ||
-    //     displayText.startsWith("+") ||
-    //     displayText.startsWith("E")) {
-    //     ui->display->setText("Error");
-    //     return;
-    // }
-
-    // if(displayText.startsWith("-")){
-    //     displayText = "0" + displayText;
-    // }
+    
     if (displayText.startsWith("E") || displayText.startsWith("N") || displayText.startsWith("I")) {
         return;
     }
@@ -162,79 +150,6 @@ void MainWindow::onEqualClicked(){
     } else {
         ui->display->setText(result.toString());
     }
-
-
-    // QStringList parts;
-    // if(ui->display->text().contains(" ")){
-    //     parts = displayText.split(" ");
-    // }
-    // else {
-    //     return;
-    // }
-
-    // int a{};
-    // QVector<double> num;
-    // QString ops[4] = {"/", "*", "+", "-"};
-    // QStringList op;
-
-    // for(int i{}; i < parts.size(); i++){
-    //     if(i % 2 == 0){
-    //         num.append(parts[i].toDouble());
-    //     }
-    //     else{
-    //         op.append(parts[i]);
-    //     }
-    // }
-
-    // int count = parts.size() / 2;
-
-    // //Calculation
-    // for(size_t j{}; j < 4; j++){
-    //     a = 0;
-    //     while(a < count){
-    //         if(op[a] == ops[j]){
-    //             if(op[a] == "+"){
-    //                 num[a] = num[a] + num[a+1];
-    //             }
-
-    //             else if(op[a] == "-"){
-    //                 num[a] = num[a] - num[a+1];
-    //             }
-
-    //             else if(op[a] == "*"){
-    //                 num[a] = num[a] * num[a+1];
-    //             }
-
-    //             else if(op[a] == "/"){
-    //                 if (num[a+1] == 0) {
-    //                     ui->display->setText("Error");
-    //                     return;
-    //                 }
-    //                 num[a] = num[a] / num[a+1];
-    //             }
-
-    //             else{
-    //                 ui->display->setText("Error");
-    //                 return;
-    //             }
-
-    //             while(a < count - 1){
-    //                 num[a+1] = num[a+2];
-    //                 op[a] = op[a+1];
-    //                 a++;
-    //             }
-    //             count--;
-    //             a = 0;
-    //         }
-    //         else{
-    //             a++;
-    //         }
-    //     }
-    // }
-    // result = num[0];
-
-    // //display result
-    // ui->display->setText(QString::number(result));
 }
 
 //keyboard support
