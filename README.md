@@ -8,6 +8,10 @@ Supports keyboard input, history, basic arithmetic operations, backspace, dark/l
 ## &#10070; Installation 
 
 - [Downlaod](https://github.com/one-1man/qt-calculator/releases/tag/v1.0.0) and install on windows
+
+  Note: This app is unsigned, so Windows Defender or antivirus software may show a warning.
+  You can verify the source code here on GitHub and build it yourself if needed.
+
   
 ---
 
